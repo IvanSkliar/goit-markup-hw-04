@@ -82,6 +82,7 @@
   .header-li:not(:last-child){
     margin-right: 50px;
   }
+
     
   .header-link{
     
@@ -399,4 +400,15 @@
        border-right: 1px solid #EEEEEE;
        border-bottom: 1px solid #EEEEEE;
        border-left: 1px solid #EEEEEE;
+      }
+      /* Подключение иконок */
+      .envelope{
+        width: 16px;
+        height: 12px;
+        margin-right: 10px;
+        fill:#757575;
+      }
+
+      .envelope :hover svg{
+        fill: var(--interactive-color);
       }
