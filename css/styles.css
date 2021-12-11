@@ -182,9 +182,34 @@
     text-align: center;
     letter-spacing: 0.06em;
   }
+  /* Блок иконок */
+  .icon{
+    padding-top: 94px;
+  }
   
+  .icon-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .icon-item{
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background-color:var(--rear-background);
+  }
+  .icon-item:not(:last-child){
+    margin-right: 30px;
+
+  }
+  .icon-priorities{
+    width: 70px;
+    height: 70px;
+  }
   /* Приоритеты */
-  .priorities{padding-top: 94px;}
+  .priorities{padding-top: 30px;}
   .list{display: flex;}
   .priorities-item:not(:last-child){
     margin-right: 30px;
@@ -406,9 +431,12 @@
         width: 16px;
         height: 12px;
         margin-right: 10px;
-        fill:#757575;
+        
+      }
+      .icon-Vector{
+        width: 10px;
+        height: 16px;
+        margin-right: 10px;
       }
 
-      .envelope :hover svg{
-        fill: var(--interactive-color);
-      }
+      
