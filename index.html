@@ -55,7 +55,16 @@
         <section class="order-background">
             <div class="container">
                 <h1 class="order-background-title">эффективные решения для вашего бизнеса</h1>
-                <button class="button" type="button">Заказать услугу</button>
+                <button data-modal-open class="button" type="button">Заказать услугу</button>
+                <div class="is-hidden" data-modal>
+                    <div>
+                        <p>
+
+                        </p>
+                        <button data-modal-close>Close</button>
+
+                    </div>
+                </div>
             </div>
         </section>
         <!--О нас-->
@@ -372,5 +381,6 @@
         </div>
     </div>
     </footer> 
+    <script src="./js/modal.js"></script>
     </body>   
 </html>
